@@ -1,0 +1,6 @@
+framework module YPCycleBanner {
+  umbrella header "YPCycleBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

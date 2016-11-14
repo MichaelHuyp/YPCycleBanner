@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EF191BFE721772B6A7A3B4EF75FE362 /* YPCycleBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E21F97CF29330C968E6E1F68B2D1242 /* YPCycleBanner-dummy.m */; };
+		16BC2F696D1D6BD7C948D9A462B501A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3E3346A4B0FDC707F163FE0CA9699987 /* Pods-YPCycleBanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B53CF6B0F8B8A18054EAFAAC42278493 /* Pods-YPCycleBanner_Example-dummy.m */; };
+		4E65D4ADFCFFE5249F67607F17B66FA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5FC5DAA41DD989E00059AA4D /* YPCycleBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC5DAA21DD989E00059AA4D /* YPCycleBanner.h */; };
+		5FC5DAA51DD989E00059AA4D /* YPCycleBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5DAA31DD989E00059AA4D /* YPCycleBanner.m */; };
+		9FCA24B780B4AAD0516C1DF6FCB7A03C /* Pods-YPCycleBanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7572DC96B4E09CE7ADDFB1C21CD27F3 /* Pods-YPCycleBanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A26F5B57B688857C58FFFC2ECC75EA45 /* Pods-YPCycleBanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 763AD4CA3E2D1D4AEAE02F0F2734F9FB /* Pods-YPCycleBanner_Tests-dummy.m */; };
+		E6247450970B1FE38C89862CBF3E655A /* Pods-YPCycleBanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD2AF154D6E493CC11C459A77526FEF /* Pods-YPCycleBanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1C34C69D55FD316005F97B9B1E1273 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FABB648A649AF793860F41E1809A764B /* YPCycleBanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8343ACA3065BA7E6B56F26D43EEF014A /* YPCycleBanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D958E607FE87734B43A5423A53756726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAFF3260A518FD1C405182D016E0212;
+			remoteInfo = YPCycleBanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08DCB09EFA59C7B5AB0FE3B031417ACE /* YPCycleBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YPCycleBanner.xcconfig; sourceTree = "<group>"; };
+		0DE48B3973DA15000B24043FCF980974 /* Pods-YPCycleBanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPCycleBanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		14866B0EC28414C6EF72B79858A5C50A /* Pods-YPCycleBanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPCycleBanner_Tests-resources.sh"; sourceTree = "<group>"; };
+		1AA6574BEC9F5556D9B9CFB672EAE691 /* Pods-YPCycleBanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YPCycleBanner_Tests.modulemap"; sourceTree = "<group>"; };
+		1E21F97CF29330C968E6E1F68B2D1242 /* YPCycleBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YPCycleBanner-dummy.m"; sourceTree = "<group>"; };
+		33644745D4B40907B8ABD53F63399959 /* Pods-YPCycleBanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPCycleBanner_Example-frameworks.sh"; sourceTree = "<group>"; };
+		42F4E85C6CDE7294893D1E11EFC94E1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45185507516F56C68C3DA79CD18B64CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46C61C9D28D3D135946420F1AB416419 /* Pods-YPCycleBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPCycleBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4BF49DD7417165749FC10B020A099383 /* Pods_YPCycleBanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPCycleBanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC5DAA21DD989E00059AA4D /* YPCycleBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPCycleBanner.h; sourceTree = "<group>"; };
+		5FC5DAA31DD989E00059AA4D /* YPCycleBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPCycleBanner.m; sourceTree = "<group>"; };
+		68ADE5A94600E132F1CE0B69AF215382 /* YPCycleBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPCycleBanner-prefix.pch"; sourceTree = "<group>"; };
+		69CAEFF30A8792A2B0FDA3A6FBE2A31C /* YPCycleBanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YPCycleBanner.modulemap; sourceTree = "<group>"; };
+		6E49EFEABE7638EECE531B443366EA3B /* Pods-YPCycleBanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YPCycleBanner_Example.modulemap"; sourceTree = "<group>"; };
+		763AD4CA3E2D1D4AEAE02F0F2734F9FB /* Pods-YPCycleBanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPCycleBanner_Tests-dummy.m"; sourceTree = "<group>"; };
+		773DF6DF1BD54398DDFBF1889871860C /* Pods-YPCycleBanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPCycleBanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8310B54AFA81C0F17E0EE46BB843F0C7 /* Pods-YPCycleBanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPCycleBanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8343ACA3065BA7E6B56F26D43EEF014A /* YPCycleBanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YPCycleBanner-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		986365DE918C5EE03EA7CCBC9A4C27CB /* Pods-YPCycleBanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YPCycleBanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F72ABFCCC0925F56450CBB7A690EAA9 /* Pods-YPCycleBanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPCycleBanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9FD2AF154D6E493CC11C459A77526FEF /* Pods-YPCycleBanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPCycleBanner_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A704E2A3CAA985F03068814F028C8328 /* Pods-YPCycleBanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YPCycleBanner_Example-resources.sh"; sourceTree = "<group>"; };
+		AD05C238092C062931E3F71013F0B63C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF31763A5DDA7A8078CE571635C2FF01 /* YPCycleBanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YPCycleBanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53CF6B0F8B8A18054EAFAAC42278493 /* Pods-YPCycleBanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YPCycleBanner_Example-dummy.m"; sourceTree = "<group>"; };
+		BBBBAC8BB0178398BFBBA2D17703EFF2 /* Pods-YPCycleBanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPCycleBanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C98CF80FBEEB821FD60E91D781B258C8 /* Pods-YPCycleBanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YPCycleBanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCA62D202E83AEB3A40592DBEAA86453 /* Pods_YPCycleBanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YPCycleBanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7572DC96B4E09CE7ADDFB1C21CD27F3 /* Pods-YPCycleBanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YPCycleBanner_Example-umbrella.h"; sourceTree = "<group>"; };
+		F9AF8A3D5B3E3A97568182108B1D32AF /* Pods-YPCycleBanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YPCycleBanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341352F33D1DA645E0F9923786392BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BC2F696D1D6BD7C948D9A462B501A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA428CA4BB4A89F35C7FB4ECAA2C48FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E65D4ADFCFFE5249F67607F17B66FA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CECBDC4ADC600DBF74EC593F716A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1C34C69D55FD316005F97B9B1E1273 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC335E7ED7464394147246F09A81812 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F4E85C6CDE7294893D1E11EFC94E1E /* Info.plist */,
+				69CAEFF30A8792A2B0FDA3A6FBE2A31C /* YPCycleBanner.modulemap */,
+				08DCB09EFA59C7B5AB0FE3B031417ACE /* YPCycleBanner.xcconfig */,
+				1E21F97CF29330C968E6E1F68B2D1242 /* YPCycleBanner-dummy.m */,
+				68ADE5A94600E132F1CE0B69AF215382 /* YPCycleBanner-prefix.pch */,
+				8343ACA3065BA7E6B56F26D43EEF014A /* YPCycleBanner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YPCycleBanner";
+			sourceTree = "<group>";
+		};
+		3864655F10A8902418C85915CD9BEF7D /* YPCycleBanner */ = {
+			isa = PBXGroup;
+			children = (
+				1AC335E7ED7464394147246F09A81812 /* Support Files */,
+				979684EED9D5E37EECAAA852CACF78A0 /* YPCycleBanner */,
+			);
+			name = YPCycleBanner;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		43C88809238A517413CC9E6987EE7378 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3864655F10A8902418C85915CD9BEF7D /* YPCycleBanner */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		64D36AFE8582F3D747B01419F88873A1 /* Pods-YPCycleBanner_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD05C238092C062931E3F71013F0B63C /* Info.plist */,
+				1AA6574BEC9F5556D9B9CFB672EAE691 /* Pods-YPCycleBanner_Tests.modulemap */,
+				C98CF80FBEEB821FD60E91D781B258C8 /* Pods-YPCycleBanner_Tests-acknowledgements.markdown */,
+				986365DE918C5EE03EA7CCBC9A4C27CB /* Pods-YPCycleBanner_Tests-acknowledgements.plist */,
+				763AD4CA3E2D1D4AEAE02F0F2734F9FB /* Pods-YPCycleBanner_Tests-dummy.m */,
+				0DE48B3973DA15000B24043FCF980974 /* Pods-YPCycleBanner_Tests-frameworks.sh */,
+				14866B0EC28414C6EF72B79858A5C50A /* Pods-YPCycleBanner_Tests-resources.sh */,
+				9FD2AF154D6E493CC11C459A77526FEF /* Pods-YPCycleBanner_Tests-umbrella.h */,
+				F9AF8A3D5B3E3A97568182108B1D32AF /* Pods-YPCycleBanner_Tests.debug.xcconfig */,
+				9F72ABFCCC0925F56450CBB7A690EAA9 /* Pods-YPCycleBanner_Tests.release.xcconfig */,
+			);
+			name = "Pods-YPCycleBanner_Tests";
+			path = "Target Support Files/Pods-YPCycleBanner_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				43C88809238A517413CC9E6987EE7378 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C13C3EB8C7E57FFEFE6299E54DA75480 /* Products */,
+				FE72AAEC235ED33D720548301642AE01 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		956EABB9BC36977E7906187D03B9E1BC /* Pods-YPCycleBanner_Example */ = {
+			isa = PBXGroup;
+			children = (
+				45185507516F56C68C3DA79CD18B64CB /* Info.plist */,
+				6E49EFEABE7638EECE531B443366EA3B /* Pods-YPCycleBanner_Example.modulemap */,
+				8310B54AFA81C0F17E0EE46BB843F0C7 /* Pods-YPCycleBanner_Example-acknowledgements.markdown */,
+				773DF6DF1BD54398DDFBF1889871860C /* Pods-YPCycleBanner_Example-acknowledgements.plist */,
+				B53CF6B0F8B8A18054EAFAAC42278493 /* Pods-YPCycleBanner_Example-dummy.m */,
+				33644745D4B40907B8ABD53F63399959 /* Pods-YPCycleBanner_Example-frameworks.sh */,
+				A704E2A3CAA985F03068814F028C8328 /* Pods-YPCycleBanner_Example-resources.sh */,
+				E7572DC96B4E09CE7ADDFB1C21CD27F3 /* Pods-YPCycleBanner_Example-umbrella.h */,
+				BBBBAC8BB0178398BFBBA2D17703EFF2 /* Pods-YPCycleBanner_Example.debug.xcconfig */,
+				46C61C9D28D3D135946420F1AB416419 /* Pods-YPCycleBanner_Example.release.xcconfig */,
+			);
+			name = "Pods-YPCycleBanner_Example";
+			path = "Target Support Files/Pods-YPCycleBanner_Example";
+			sourceTree = "<group>";
+		};
+		979684EED9D5E37EECAAA852CACF78A0 /* YPCycleBanner */ = {
+			isa = PBXGroup;
+			children = (
+				D9299953439D0BFFB8A04EC67AA99835 /* Classes */,
+			);
+			path = YPCycleBanner;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13C3EB8C7E57FFEFE6299E54DA75480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF49DD7417165749FC10B020A099383 /* Pods_YPCycleBanner_Example.framework */,
+				DCA62D202E83AEB3A40592DBEAA86453 /* Pods_YPCycleBanner_Tests.framework */,
+				AF31763A5DDA7A8078CE571635C2FF01 /* YPCycleBanner.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9299953439D0BFFB8A04EC67AA99835 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5FC5DAA21DD989E00059AA4D /* YPCycleBanner.h */,
+				5FC5DAA31DD989E00059AA4D /* YPCycleBanner.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FE72AAEC235ED33D720548301642AE01 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				956EABB9BC36977E7906187D03B9E1BC /* Pods-YPCycleBanner_Example */,
+				64D36AFE8582F3D747B01419F88873A1 /* Pods-YPCycleBanner_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09F06D8DB9646540094E2371FC226446 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABB648A649AF793860F41E1809A764B /* YPCycleBanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9578CFBA7A223F052B05E996790AB213 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6247450970B1FE38C89862CBF3E655A /* Pods-YPCycleBanner_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA48942FA77B3241BD298F54A3F38B95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC5DAA41DD989E00059AA4D /* YPCycleBanner.h in Headers */,
+				9FCA24B780B4AAD0516C1DF6FCB7A03C /* Pods-YPCycleBanner_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CAFF3260A518FD1C405182D016E0212 /* YPCycleBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227CA5AFE4785F87B4C49691757846E9 /* Build configuration list for PBXNativeTarget "YPCycleBanner" */;
+			buildPhases = (
+				81A59DB3C00BF0D72963928AA977FDEB /* Sources */,
+				D1CECBDC4ADC600DBF74EC593F716A08 /* Frameworks */,
+				09F06D8DB9646540094E2371FC226446 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPCycleBanner;
+			productName = YPCycleBanner;
+			productReference = AF31763A5DDA7A8078CE571635C2FF01 /* YPCycleBanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6CB73FE05F3F9F6ADBB814298FCDD62B /* Pods-YPCycleBanner_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4942447F689BA6154AE8B72A9C965353 /* Build configuration list for PBXNativeTarget "Pods-YPCycleBanner_Example" */;
+			buildPhases = (
+				E14CAD6DFB8C67E7B7DB7605FB540A0A /* Sources */,
+				BA428CA4BB4A89F35C7FB4ECAA2C48FC /* Frameworks */,
+				EA48942FA77B3241BD298F54A3F38B95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB9B87B3DBAEBEEACC3020FF837DB00 /* PBXTargetDependency */,
+			);
+			name = "Pods-YPCycleBanner_Example";
+			productName = "Pods-YPCycleBanner_Example";
+			productReference = 4BF49DD7417165749FC10B020A099383 /* Pods_YPCycleBanner_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D37300C59DA6EDDBD0E2FE700BF2A8D7 /* Pods-YPCycleBanner_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367CDDD5546928626FDEE7A9520B96FD /* Build configuration list for PBXNativeTarget "Pods-YPCycleBanner_Tests" */;
+			buildPhases = (
+				CCA742419D94DD6B7F635BC744E36E10 /* Sources */,
+				341352F33D1DA645E0F9923786392BEC /* Frameworks */,
+				9578CFBA7A223F052B05E996790AB213 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YPCycleBanner_Tests";
+			productName = "Pods-YPCycleBanner_Tests";
+			productReference = DCA62D202E83AEB3A40592DBEAA86453 /* Pods_YPCycleBanner_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C13C3EB8C7E57FFEFE6299E54DA75480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB73FE05F3F9F6ADBB814298FCDD62B /* Pods-YPCycleBanner_Example */,
+				D37300C59DA6EDDBD0E2FE700BF2A8D7 /* Pods-YPCycleBanner_Tests */,
+				1CAFF3260A518FD1C405182D016E0212 /* YPCycleBanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81A59DB3C00BF0D72963928AA977FDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EF191BFE721772B6A7A3B4EF75FE362 /* YPCycleBanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA742419D94DD6B7F635BC744E36E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26F5B57B688857C58FFFC2ECC75EA45 /* Pods-YPCycleBanner_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E14CAD6DFB8C67E7B7DB7605FB540A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3346A4B0FDC707F163FE0CA9699987 /* Pods-YPCycleBanner_Example-dummy.m in Sources */,
+				5FC5DAA51DD989E00059AA4D /* YPCycleBanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFB9B87B3DBAEBEEACC3020FF837DB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YPCycleBanner;
+			target = 1CAFF3260A518FD1C405182D016E0212 /* YPCycleBanner */;
+			targetProxy = D958E607FE87734B43A5423A53756726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1ABE2FC7630284BB669B6200910A4B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DCB09EFA59C7B5AB0FE3B031417ACE /* YPCycleBanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YPCycleBanner/YPCycleBanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YPCycleBanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YPCycleBanner/YPCycleBanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YPCycleBanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D844807C3A3430BC4E9AD64FF13BBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AF8A3D5B3E3A97568182108B1D32AF /* Pods-YPCycleBanner_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YPCycleBanner_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPCycleBanner_Tests/Pods-YPCycleBanner_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YPCycleBanner_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9DD655C0D35E0BD93F27D93B45635C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBBAC8BB0178398BFBBA2D17703EFF2 /* Pods-YPCycleBanner_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YPCycleBanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPCycleBanner_Example/Pods-YPCycleBanner_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YPCycleBanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D3FD4184DAAFD78E877B6740F1C64B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F72ABFCCC0925F56450CBB7A690EAA9 /* Pods-YPCycleBanner_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YPCycleBanner_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPCycleBanner_Tests/Pods-YPCycleBanner_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YPCycleBanner_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5845B0A1CABF490E6C9DB248D26E2156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C61C9D28D3D135946420F1AB416419 /* Pods-YPCycleBanner_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YPCycleBanner_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YPCycleBanner_Example/Pods-YPCycleBanner_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YPCycleBanner_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9950BCFF80DD5A76A82817F9D77673AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DCB09EFA59C7B5AB0FE3B031417ACE /* YPCycleBanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YPCycleBanner/YPCycleBanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YPCycleBanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YPCycleBanner/YPCycleBanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YPCycleBanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227CA5AFE4785F87B4C49691757846E9 /* Build configuration list for PBXNativeTarget "YPCycleBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABE2FC7630284BB669B6200910A4B62 /* Debug */,
+				9950BCFF80DD5A76A82817F9D77673AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367CDDD5546928626FDEE7A9520B96FD /* Build configuration list for PBXNativeTarget "Pods-YPCycleBanner_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D844807C3A3430BC4E9AD64FF13BBA1 /* Debug */,
+				3D3FD4184DAAFD78E877B6740F1C64B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4942447F689BA6154AE8B72A9C965353 /* Build configuration list for PBXNativeTarget "Pods-YPCycleBanner_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9DD655C0D35E0BD93F27D93B45635C /* Debug */,
+				5845B0A1CABF490E6C9DB248D26E2156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

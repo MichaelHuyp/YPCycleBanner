@@ -1,0 +1,16 @@
+PODS:
+  - YPCycleBanner (0.1.0)
+
+DEPENDENCIES:
+  - YPCycleBanner (from `../`)
+
+EXTERNAL SOURCES:
+  YPCycleBanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YPCycleBanner: 0c83a6646df0463edaeb1d2e384d656a23bbe90b
+
+PODFILE CHECKSUM: 01529357535cd50a8fb223f641c43fa95d3c4d7c
+
+COCOAPODS: 1.1.1
