@@ -7,11 +7,14 @@
 //
 
 #import "YPCycleBanner.h"
+#import "UIImageView+WebCache.h"
+#import "Masonry.h"
 
 /** 屏幕宽度 */
 #define YPScreenW [UIScreen mainScreen].bounds.size.width
 /** 屏幕高度 */
 #define YPScreenH [UIScreen mainScreen].bounds.size.height
+#define YPNotificationCenter [NSNotificationCenter defaultCenter]
 
 @interface YPCycleBannerCollectionViewCell : UICollectionViewCell
 
@@ -69,9 +72,12 @@
 {
     _model = model;
     
-    NSString *imageUrl = [model valueForKey:@"imageUrl"];
-    
-    [_imageView setImageWithURL:[NSURL URLWithString:imageUrl] placeholder:self.placeholderImage options:YYWebImageOptionProgressiveBlur | YYWebImageOptionSetImageWithFadeAnimation completion:nil];
+    if ([model isKindOfClass:[NSString class]]) {
+        _imageView.image = [UIImage imageNamed:model];
+    } else {
+        NSString *imageUrl = [model valueForKey:@"imageUrl"];
+        [_imageView sd_setImageWithURL:[NSURL URLWithString:imageUrl]];
+    }
 }
 
 
@@ -144,7 +150,7 @@ NSString * const YPCycleBannerCollectionViewCellReuseIdentifier = @"YPCycleBanne
 - (void)setupUI
 {
     // self
-    self.backgroundColor = YPMainBgColor;
+    self.backgroundColor = [UIColor whiteColor];
     
     // FlowLayout
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
@@ -157,7 +163,7 @@ NSString * const YPCycleBannerCollectionViewCellReuseIdentifier = @"YPCycleBanne
     UICollectionView *mainView = [[UICollectionView alloc] initWithFrame:self.bounds collectionViewLayout:flowLayout];
     _mainView = mainView;
     [self addSubview:mainView];
-    mainView.backgroundColor = YPMainBgColor;
+    mainView.backgroundColor = [UIColor whiteColor];
     mainView.pagingEnabled = YES;
     mainView.showsVerticalScrollIndicator = NO;
     mainView.showsHorizontalScrollIndicator = NO;
@@ -171,8 +177,8 @@ NSString * const YPCycleBannerCollectionViewCellReuseIdentifier = @"YPCycleBanne
     _mainPageControl = mainPageControl;
     [self addSubview:mainPageControl];
     mainPageControl.hidesForSinglePage = YES;
-    mainPageControl.currentPageIndicatorTintColor = YPMainColor;
-    mainPageControl.pageIndicatorTintColor = YPWhiteColor;
+    mainPageControl.currentPageIndicatorTintColor = [UIColor grayColor];
+    mainPageControl.pageIndicatorTintColor = [UIColor whiteColor];
     mainPageControl.userInteractionEnabled = NO;
     
     [mainPageControl mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -348,7 +354,7 @@ NSString * const YPCycleBannerCollectionViewCellReuseIdentifier = @"YPCycleBanne
 
 - (NSUInteger)currentIndex
 {
-    if (_mainView.width == 0 || _mainView.height == 0) {
+    if (_mainView.frame.size.width == 0 || _mainView.frame.size.height == 0) {
         return 0;
     }
     NSUInteger index = 0;

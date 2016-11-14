@@ -1,9 +1,9 @@
 {
   "name": "YPCycleBanner",
   "version": "0.1.0",
-  "summary": "A short description of YPCycleBanner.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/YPCycleBanner",
+  "summary": "无限轮播控件",
+  "description": "一款有阻力效果的无限轮播控件",
+  "homepage": "https://github.com/MichaelHuyp/YPCycleBanner",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "MichaelHuyp": "86812684@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/YPCycleBanner.git",
+    "git": "https://github.com/MichaelHuyp/YPCycleBanner.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YPCycleBanner/Classes/**/*"
+  "source_files": "YPCycleBanner/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "Masonry": [
+
+    ]
+  }
 }

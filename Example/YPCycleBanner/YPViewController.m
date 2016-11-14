@@ -7,8 +7,11 @@
 //
 
 #import "YPViewController.h"
+#import "YPCycleBanner.h"
 
 @interface YPViewController ()
+
+@property (nonatomic, weak) YPCycleBanner *bannerView;
 
 @end
 
@@ -17,13 +20,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    YPCycleBanner *bannerView = [YPCycleBanner bannerViewWithFrame:CGRectMake(0, 20, [UIScreen mainScreen].bounds.size.width, 120) placeholderImage:nil block:^(NSUInteger didselectIndex) {
+        NSLog(@"%ld",didselectIndex);
+    }];
+    _bannerView = bannerView;
+    [self.view addSubview:bannerView];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)viewWillAppear:(BOOL)animated
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewWillAppear:animated];
+    
+    self.bannerView.models = @[@"demo1",@"demo2",@"demo3"];
 }
+
+
 
 @end

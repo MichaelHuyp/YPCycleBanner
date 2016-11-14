@@ -1,5 +1,11 @@
 PODS:
-  - YPCycleBanner (0.1.0)
+  - Masonry (1.0.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - YPCycleBanner (0.1.0):
+    - Masonry
+    - SDWebImage
 
 DEPENDENCIES:
   - YPCycleBanner (from `../`)
@@ -9,7 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YPCycleBanner: 0c83a6646df0463edaeb1d2e384d656a23bbe90b
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  YPCycleBanner: e907bbd90ddb9b738030022f5e5804e68ab329ec
 
 PODFILE CHECKSUM: 01529357535cd50a8fb223f641c43fa95d3c4d7c
 
