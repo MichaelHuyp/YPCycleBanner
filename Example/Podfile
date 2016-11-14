@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YPCycleBanner_Example' do
+  pod 'YPCycleBanner', :path => '../'
+
+  target 'YPCycleBanner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
